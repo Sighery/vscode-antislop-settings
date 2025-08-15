@@ -49,4 +49,9 @@
         "convertLambdaToNamedFunction": false,
         "generateSymbol": false
     },
+    "ansible.lightspeed.suggestions.waitWindow": 360000,
+    "mcp": {
+        "inputs": [],
+        "servers": {}
+    }
 }
