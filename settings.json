@@ -55,5 +55,6 @@
     "python.experiments.enabled": false,
     "remote.SSH.experimental.chat": false,
     "telemetry.feedback.enabled": false,
+    "terminal.integrated.initialHint": false,
     "workbench.editor.empty.hint": "hidden"
 }
