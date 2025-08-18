@@ -29,6 +29,7 @@
     "chat.sendElementsToChat.enabled": false,
     "chat.setupFromDialog": false,
     "chat.useFileStorage": false,
+    "dataWrangler.experiments.copilot.enabled": false,
     "github.copilot.editor.enableAutoCompletions": false,
     "github.copilot.editor.enableCodeActions": false,
     "github.copilot.enable": false,
@@ -36,6 +37,7 @@
     "github.copilot.renameSuggestions.triggerAutomatically": false,
     "githubPullRequests.codingAgent.enabled": false,
     "githubPullRequests.experimental.chat": false,
+    "gitlab.duoChat.enabled": false,
     "inlineChat.holdToSpeech": false,
     "inlineChat.lineNaturalLanguageHint": false,
     "mcp": {
