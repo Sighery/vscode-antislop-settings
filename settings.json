@@ -7,18 +7,22 @@
     "chat.agent.maxRequests": 0,
     "chat.commandCenter.enabled": false,
     "chat.detectParticipant.enabled": false,
+    "chat.disableAIFeatures": true,
     "chat.extensionTools.enabled": false,
     "chat.focusWindowOnConfirmation": false,
     "chat.implicitContext.enabled": {
         "panel": "never"
     },
+    "chat.implicitContext.suggestedContext": false,
     "chat.instructionsFilesLocations": {
         ".github/instructions": false
     },
-    "chat.mcp.discovery.enabled": false,
-    "chat.mcp.enabled": false,
-    "chat.modeFilesLocations": {
-        ".github/chatmodes": false
+    "chat.mcp.access": "none",
+    "chat.mcp.discovery.enabled": {
+        "claude-desktop": false,
+        "windsurf": false,
+        "cursor-global": false,
+        "cursor-workspace": false
     },
     "chat.promptFiles": false,
     "chat.promptFilesLocations": {
@@ -28,8 +32,12 @@
     "chat.sendElementsToChat.attachImages": false,
     "chat.sendElementsToChat.enabled": false,
     "chat.setupFromDialog": false,
+    "chat.showAgentSessionsViewDescription": false,
+    "chat.tools.todos.showWidget": false,
+    "chat.useAgentsMdFile": false,
     "chat.useFileStorage": false,
     "dataWrangler.experiments.copilot.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": false,
     "github.copilot.editor.enableAutoCompletions": false,
     "github.copilot.editor.enableCodeActions": false,
     "github.copilot.enable": false,
@@ -53,8 +61,10 @@
         "implementAbstractClasses": false
     },
     "python.experiments.enabled": false,
+    "redhat.telemetry.enabled": false,
     "remote.SSH.experimental.chat": false,
     "telemetry.feedback.enabled": false,
     "terminal.integrated.initialHint": false,
-    "workbench.editor.empty.hint": "hidden"
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.settings.showAISearchToggle": false
 }
