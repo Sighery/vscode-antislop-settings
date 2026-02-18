@@ -69,6 +69,7 @@
     "chat.useFileStorage": false,
     "chat.viewSessions.enabled": false,
     "dataWrangler.experiments.copilot.enabled": false,
+    "editor.aiStats.enabled": false,
     "github.copilot.editor.enableAutoCompletions": false,
     "github.copilot.editor.enableCodeActions": false,
     "github.copilot.enable": false,
