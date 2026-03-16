@@ -104,4 +104,23 @@
     "workbench.commandPalette.showAskInChat": false,
     "workbench.editor.empty.hint": "hidden",
     "workbench.settings.showAISearchToggle": false
+    // gemini stuff comes bundled with some google extensions
+    "cloudcode.apigee.gemini.options": {
+
+        "enterpriseContext": {
+            "enabled": false,
+            "includeMetadata": true,
+            "includeSecurity": true,
+            "includeSchema": true
+        },
+        "enableRemoteMockServer": false,
+        "enablePublishToApiHubModal": false,
+        "enableNewActionsLayout": false
+    },
+    "geminicodeassist.enable": false,
+    "geminicodeassist.enableTelemetry": false,
+    "geminicodeassist.inlineSuggestions.enableAuto": false,
+    "geminicodeassist.localCodebaseAwareness": false,
+    "geminicodeassist.chat.automaticScrolling": false,
+    // end of slop machine settings
 }
