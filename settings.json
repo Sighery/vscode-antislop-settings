@@ -81,6 +81,7 @@
     "githubPullRequests.codingAgent.uiIntegration": false,
     "githubPullRequests.experimental.chat": false,
     "gitlab.duoChat.enabled": false,
+    "inlineChat.affordance": false,
     "inlineChat.holdToSpeech": false,
     "inlineChat.lineNaturalLanguageHint": false,
     "mcp": {
