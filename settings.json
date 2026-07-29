@@ -4,12 +4,17 @@
     "accessibility.verbosity.inlineChat": false,
     "accessibility.verbosity.panelChat": false,
     "accessibility.verbosity.terminalChatOutput": false,
+    "agents.voice.handsFree": false,
     "ansible.lightspeed.suggestions.waitWindow": 360000,
     "chat.agent.codeBlockProgress": false,
     "chat.agent.enabled": false,
     "chat.agent.maxRequests": 0,
+    "chat.agent.networkFilter": true,
+    "chat.agent.sandbox.allowAutoApprove": false,
+    "chat.agent.sandbox.allowUnsandboxedCommands": false,
     "chat.agent.thinking.generateTitles": false,
     "chat.agent.thinking.terminalTools": false,
+    "chat.agents.copilotCli.hideExtensionHost": false,
     "chat.agentsControl.enabled": false,
     "chat.agentSkillsLocations": {
         ".agents/skills": false,
@@ -26,6 +31,9 @@
     "chat.detectParticipant.enabled": false,
     "chat.disableAIFeatures": true,
     "chat.editMode.hidden": true,
+    "chat.editor.claude.preferAgentHost": false,
+    "chat.editor.copilotCli.hideExtensionHost": false,
+    "chat.editor.localAgent.enabled": false,
     "chat.editRequests": "none",
     "chat.extensionTools.enabled": false,
     "chat.extensionUnification.enabled": false,
@@ -33,10 +41,14 @@
     "chat.implicitContext.enabled": {
         "panel": "never"
     },
+    "chat.implicitContext.includeActiveEditor": false,
     "chat.implicitContext.suggestedContext": false,
     "chat.includeApplyingInstructions": false,
     "chat.instructionsFilesLocations": {
-        ".github/instructions": false
+        ".claude/rules": false,
+        ".github/instructions": false,
+        "~/.claude/rules": false,
+        "~/.copilot/instructions": false
     },
     "chat.mcp.access": "none",
     "chat.mcp.apps.enabled": false,
@@ -48,6 +60,10 @@
         "windsurf": false
     },
     "chat.mcp.gallery.enabled": false,
+    "chat.modeFilesLocations": {
+        ".github/chatmodes": false
+    },
+    "chat.plugins.enabled": false,
     "chat.promptFiles": false,
     "chat.promptFilesLocations": {
         ".github/prompts": false
@@ -57,6 +73,7 @@
     "chat.sendElementsToChat.enabled": false,
     "chat.setupFromDialog": false,
     "chat.showAgentSessionsViewDescription": false,
+    "chat.titleBar.openInAgentsWindow.enabled": false,
     "chat.tools.edits.autoApprove": {
         "**/*": false
     },
@@ -66,7 +83,9 @@
     "chat.unifiedAgentsBar.enabled": false,
     "chat.useAgentSkills": false,
     "chat.useAgentsMdFile": false,
+    "chat.useClaudeMdFile": false,
     "chat.useFileStorage": false,
+    "chat.useHooks": false,
     "chat.viewSessions.enabled": false,
     "dataWrangler.experiments.copilot.enabled": false,
     "editor.aiStats.enabled": false,
@@ -82,6 +101,7 @@
     "githubPullRequests.experimental.chat": false,
     "gitlab.duoChat.enabled": false,
     "inlineChat.affordance": false,
+    "inlineChat.fixDiagnostics": false,
     "inlineChat.holdToSpeech": false,
     "inlineChat.lineNaturalLanguageHint": false,
     "mcp": {
@@ -97,17 +117,18 @@
         "implementAbstractClasses": false
     },
     "python.experiments.enabled": false,
-    "redhat.telemetry.enabled": false,
     "remote.SSH.experimental.chat": false,
-    "telemetry.feedback.enabled": false,
     "terminal.integrated.initialHint": false,
     "terminal.integrated.suggest.enabled": false,
+    "workbench.browser.enableChatTools": false,
     "workbench.commandPalette.showAskInChat": false,
     "workbench.editor.empty.hint": "hidden",
     "workbench.settings.showAISearchToggle": false,
+    "workbench.settings.applyToAllProfiles": [
+        "chat.disableAIFeatures"
+    ],
     // gemini stuff comes bundled with some google extensions
     "cloudcode.apigee.gemini.options": {
-
         "enterpriseContext": {
             "enabled": false,
             "includeMetadata": true,
